@@ -18,7 +18,7 @@ const Cart = () => {
 
   return (
     <div>
-      <pre>{JSON.stringify(cartProducts, null, 2)}</pre>
+      {/* <pre>{JSON.stringify(cartProducts, null, 2)}</pre> */}
       <PageHeader text="Book Cart" />
       <Table>
         <Table.Head>
